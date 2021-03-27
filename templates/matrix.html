@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+
+{% block head %}
+<title>Robot Bela</title>
+{% endblock %}
+
+{% block body %}
+<h1 id="inputs">
+    Zadání
+</h1>
+
+    <form  action="{{url_for('showResult')}}" method="POST" name="f1">
+        <div class=myForm><br>
+            <label for="digit1">Vyplň číslo:</label>
+            <input name="digit1" id="digit1" type="text" size=1 maxlength=1/>
+            <input name="digit2" id="digit2" type="text" size=1 maxlength=1/> 
+            <input name="digit3" id="digit3" type="text" size=1 maxlength=1/> 
+            <input name="digit4" id="digit4" type="text" size=1 maxlength=1/> 
+            <input name="digit5" id="digit5" type="text" size=1 maxlength=1/> 
+        </div><br>
+        
+        <label for="total">Celkový součet:</label>
+        <input type="text" id="total" name="total" size=3 maxlength=3><br><br>
+        <label for="lenght">Čísel k součtu:</label>
+        <input type="text" id="lenght" name="lenght" size=1 maxlength=1>
+        <label for="suma">Součet:</label>
+        <input type="text" id="suma" name="suma" size=3 maxlength=3><br><br>
+        <input type="submit" value="Vypočítej" id="matrix_button">
+        <br>
+    </form>
+
+{% endblock %}

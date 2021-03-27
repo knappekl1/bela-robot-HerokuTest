@@ -1,0 +1,51 @@
+body{
+    font-family: Tahoma;
+    background-color:lightblue;
+    text-decoration-color: black;
+
+}
+form[name="f1"] {
+    color: navy;
+    background-color:floralwhite;
+    text-align:center;
+    text-indent: 30px;
+    text-transform: uppercase;
+  }
+#out {
+    letter-spacing: 5px;
+    font-size:large;
+    text-align:center;
+    color: white;
+    background-color:royalblue
+}
+#homepage1 {
+    text-align:center;
+}
+#homepage2 {
+    text-align:center;
+}
+#result {
+    text-align:center;}
+#inputs {
+    text-align:center;}
+#matrix_button{
+    background-color: #3060b9;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+#hp_button{
+    background-color: #3060b9;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
